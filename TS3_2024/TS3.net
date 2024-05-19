@@ -1,0 +1,11 @@
+* C:\users\fabian\Documents\UTN\TC2\TS3_2024\TS3.asc
+C1 N001 0 0.8
+R1 N001 in 1
+R2 N002 N001 1
+L1 N002 out 0.798
+C2 out 0 0.8
+Vin in 0 AC 1
+.ac dec 100 0.01 10
+.lib opamp.sub
+.backanno
+.end
